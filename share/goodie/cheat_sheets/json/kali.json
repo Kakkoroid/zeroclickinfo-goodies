@@ -1,0 +1,1062 @@
+{  
+    "id":"Kali_cheat_sheet",
+    "name":"Kali",
+    "description":"A Linux Based Debian Operating System Design For Penetration Testing and Ethical Hacking",
+    "metadata": {  
+        "sourceName":"Kali",
+        "sourceUrl":"https://www.latesthackingnews.com/kali-linux-commands-cheat-sheet/"
+    },
+    "template_type":"terminal",
+    "section_order": [  
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X"
+    ],
+    "sections": {  
+        "A": [  
+            {  
+                "val":"apropos :",
+                "key":"Search Help manual pages (man -k)"
+            },            
+            {  
+                "val":"Search for and install software packages (Debian/Ubuntu)",  
+                "key":"apt-get "
+            },
+            {  
+                "val":"Search for and install software packages (Debian/Ubuntu)",
+                "key":"aptitude"
+            },
+            {  
+                "val":"Spell Checker",
+                "key":"aspell"
+            },
+            {  
+                "val":"Find and Replace text, database sort/validate/index", 
+                "key":"awk"
+            }           
+        ],
+        "B": [  
+            {  
+                "val":"Strip directory and suffix from filenames", 
+                "key":"basename"
+            },
+            {  
+                "val":"GNU Bourne-Again SHell", 
+                "key":"bash"
+            },
+            {  
+                "val":"Arbitrary precision calculator language",
+                "key":"bc"
+            },
+            {  
+                "val":"Send to background",
+                "key":"bg"
+            },
+            {  
+                "val":"Exit from a loop",
+                "key":"break"
+            },
+            {  
+                "val":"Run a shell builtin",
+                "key":"builtin"
+            },
+            {  
+                "val":"Compress or decompress named file(s)",
+                "key":"bzip2"
+            }
+      ],
+        "C": [
+            {  
+                "val":"Display a calendar",
+                "key":"cal"
+            },
+            {  
+                "val":"Conditionally perform a command",
+                "key":"case"
+            },
+            {  
+                "val":"Concatenate and print (display) the content of files",
+                "key":"cat"
+            },
+            {  
+                "val":"Change Directory",
+                "key":"cd"
+            },
+            {  
+                "val":"Partition table manipulator for Linux",
+                "key":"cfdisk"
+            },
+            {  
+                "val":"Change group ownership",
+                "key":"chgrp"
+            },
+            {  
+                "val":"Change access permissions",
+                "key":"chmod"
+            },
+            {  
+                "val":"Change file owner and group",
+                "key":"chown"
+            },
+            {  
+                "val":"Run a command with a different root directory",
+                "key":"chroot"
+            },
+            {  
+                "val":"System services (runlevel)",
+                "key":"chkconfig"
+            },
+            {  
+                "val":"Print CRC checksum and byte counts",
+                "key":"cksum"
+            },
+            {  
+                "val":"Clear terminal screen",
+                "key":"clear"
+            },
+            {  
+                "val":"Compare two files",
+                "key":"cmp"
+            },
+            {  
+                "val":"Compare two sorted files line by line",
+                "key":"comm"
+            },
+            {  
+                "val":"Run a command – ignoring shell functions •",
+                "key":"command"
+            },
+            {  
+                "val":"Resume the next iteration of a loop •",
+                "key":"continue"
+            },
+            {  
+                "val":"Copy one or more files to another location",
+                "key":"cp"
+            },
+            {  
+                "val":"Daemon to execute scheduled commands",
+                "key":"cron"
+            },
+            {  
+                "val":"Schedule a command to run at a later time",
+                "key":"crontab"
+            },
+            {  
+                "val":"Split a file into context-determined pieces",
+                "key":"csplit"
+            },
+            {  
+                "val":"Divide a file into several parts",
+                "key":"cut"
+            } 
+    ],
+        "D": [
+            {  
+                "val":"Display or change the date & time",
+                "key":"date"
+            },
+            {  
+                "val":"Desk Calculator",
+                "key":"DC"
+            },
+            {  
+                "val":"Convert and copy a file, write disk headers, boot records",
+                "key":"dd"
+            },
+            {  
+                "val":"Data recovery tool",
+                "key":"ddrescue"
+            },
+            {  
+                "val":"Declare variables and give them attributes •",
+                "key":"declare"
+            },
+            {  
+                "val":"Display free disk space",
+                "key":"df"
+            },
+            {  
+                "val":"Display the differences between two files",
+                "key":"diff"
+            },
+            {  
+                "val":"Show differences among three files",
+                "key":"diff3"
+            },
+            {  
+                "val":"DNS lookup",
+                "key":"dig"
+            },
+            {  
+                "val":"Briefly list directory contents",
+                "key":"dir"
+            },
+            {  
+                "val":"Colour setup for `ls’",
+                "key":"dircolors"
+            },
+            {  
+                "val":"Convert a full pathname to just a path",
+                "key":"dirname"
+            },
+            {  
+                "val":"Display list of remembered directories",
+                "key":"dirs"
+            },
+            {  
+                "val":"Print kernel & driver messages",
+                "key":"dmseg"
+            },
+            {  
+                "val":"Estimate file space usage",
+                "key":"du"
+            }       
+        ],
+        "E":[  
+            {  
+                "val":"Display message on screen •",
+                "key":"echo"
+            },
+            {  
+                "val":"Search file(s) for lines that match an extended expression",
+                "key":"egrep"
+            },
+            {  
+                "val":"Eject removable media",
+                "key":"eject"
+            },
+            {  
+                "val":"Enable and disable builtin shell commands •",
+                "key":"enable"
+            },
+           
+            {  
+                "val":"Environment variables",
+                "key":"env"
+            },
+            {  
+                "val":"Ethernet card settings",
+                "key":"ethtool"
+            },
+            {  
+                "val":"Evaluate several commands/arguments",
+                "key":"eval"
+            },
+            {  
+                "val":"Execute a command",
+                "key": "exec"
+            },
+            {  
+                "val":"Exit the shell",
+                "key":"exit"
+            },
+            {  
+                "val":"Automate arbitrary applications accessed over a terminal",
+                "key":"expect"
+            },
+            {  
+                "val":"Convert tabs to spaces",
+                "key":"expand"
+            },
+            {  
+                "val":"Set an environment variable",
+                "key":"export"
+            },
+            {  
+                "val":"Evaluate expressions",
+                "key":"expr"
+            }
+     ],
+        "F":[        
+            {  
+                "val":"Do nothing, unsuccessfully",
+                "key":"false"
+            },
+            {  
+                "val":"Low-level format a floppy disk",
+                "key":"fdformat"
+            },
+            {  
+                "val":"Partition table manipulator for Linux",
+                "key":"fdisk"
+            },
+            {  
+                "val":"Send job to foreground",
+                "key":"fg"
+            },
+            {  
+                "val":"Search file(s) for lines that match a fixed string",
+                "key":"fgrep"
+            },
+            {  
+                "val":"Determine file type",
+                "key":"file"
+            },
+            {  
+                "val":"Search for files that meet a desired criteria",
+                "key": "find"
+            },
+            {  
+                "val":"Reformat paragraph text",
+                "key":"fmt"
+            },
+            {  
+                "val":"Wrap text to fit a specified width",
+                "key":"fold"
+            },
+            {  
+                "val":"Expand words, and execute commands",
+                "key":"for"
+            },
+            {  
+                "val":"Format disks or tapes",
+                "key":"format"
+            },
+            {  
+                "val":"Display memory usage",
+                "key":"free"
+            },
+            {  
+                "val":"File system consistency check and repair",
+                "key":"fsck"
+            },
+            {  
+                "val":"File Transfer Protocol",
+                "key":"ftp"
+            },
+            {  
+                "val":"Define Function Macros",
+                "key":"function"
+            },
+            {  
+                "val":"Identify/kill the process that is accessing a file",
+                "key":"fuser"
+            }
+      ],
+         "G" :[
+            {  
+                "val":"Find and Replace text within file(s)",
+                "key":"gawk"
+            },
+            {  
+                "val":"Parse positional parameters",
+                "key":"getopts"
+            },
+            {  
+                "val":"Search file(s) for lines that match a given pattern",
+                "key":"grep"
+            },
+            {  
+                "val":"Add a user security group",
+                "key":"groupadd"
+            }, 
+            {  
+                "val":"Delete a group",
+                "key":"groupdel"
+            },
+            {  
+                "val":"Modify a group",
+                "key":"groupmod"
+            },
+            {  
+                "val":"Print group names a user is in",
+                "key":"groups"
+            },
+            {  
+                "val":"Compress or decompress named file(s)",
+                "key":"gzip"
+            }             
+        ],
+        "H": [  
+            {  
+                "val":"Remember the full pathname of a name argument",
+                "key":"hash"
+            },
+            {  
+                "val":"Output the first part of file(s)",
+                "key":"head"
+            },
+            {  
+                "val":"Display help for a built-in command",
+                "key":"help"
+            },
+            {  
+                "val":"Command History",
+                "key":"history"
+            },
+            {  
+                "val":"Print or set system name",
+                "key":"hostname"
+            }
+         ],
+         "I": [   
+            {  
+                "val":"Convert the character set of a file",
+                "key":"iconv"
+            },
+            {  
+                "val":"Print user and group id’s",
+                "key":"id"
+            },
+            {  
+                "val":"Conditionally perform a command",
+                "key":"if"
+            },
+            {  
+                "val":"Configure a network interface",
+                "key":"ifconfig"
+            },
+            {  
+                "val":"Stop a network interface",
+                "key":"ifdown"
+            },  
+            {  
+                "val":"Start a network interface up",
+                "key":"ifup"
+            },  
+            {  
+                "val":"Capture an X server screen and save the image to file",
+                "key":"import"
+            },  
+            {  
+                "val":"Copy files and set attributes",
+                "key":"install"
+            }  
+        ],
+        "J":[  
+            {  
+                "val":"List active jobs",
+                "key":"jobs"   
+            },
+            {  
+                "val":"Join lines on a common field",
+                "key":"Join"
+            }
+        ],
+        "K":[
+            {  
+                "val":"Stop a process from running",
+                "key":"kill"
+            },
+            {  
+                "val":"Kill processes by name",
+                "key":"killall"
+            }
+        ],
+        "L":[
+            {  
+                "val":"Display output one screen at a time",
+                "key":"less"
+            },
+            {  
+                "val":"Perform arithmetic on shell variables",
+                "key":"let"
+            },
+            {  
+                "val":"Create a symbolic link to a file",
+                "key":"In"
+            },
+            {  
+                "val":"Create variables",
+                "key":"local"
+            },
+            {  
+                "val":"Find files",
+                "key":"locate"
+            },
+            {  
+                "val":"Print current login name",
+                "key":"logname"
+            },
+            {  
+                "val":"Exit a login shell",
+                "key":"logout"
+            },
+            {  
+                "val":"Display lines beginning with a given string",
+                "key":"look"
+            },
+            {  
+                "val":"Line printer control program",
+                "key":"lpc"
+            },
+            {  
+                "val":"Off line print",
+                "key":"lpr"
+            },
+            {  
+                "val":"Print a file",
+                "key":"lprint"                
+            },
+            {  
+                "val":"Abort a print job",
+                "key":"lprintd"                
+            },
+            {  
+                "val":"List the print queue",
+                "key":"lprintq"                
+            },
+            {  
+                "val":"Remove jobs from the print queue",
+                "key":"lprm"                
+            },
+            {  
+                "val":"List information about file(s)",
+                "key":"ls"                
+            },
+            {  
+                "val":"List open files",
+                "key":"lsof"                
+            }
+        ],
+        "M": [  
+            {  
+                "val":"Recompile a group of programs",
+                "key":"make"
+            },
+            {  
+                "val":"Help manual",
+                "key":"man"
+            },
+            {  
+                "val":"Create new folder(s)",
+                "key":"mkdir"
+            },
+            {  
+                "val":"Make FIFOs (named pipes)",
+                "key":"makefifo"
+            },
+            {  
+                "val":"Create an hybrid ISO9660/JOLIET/HFS filesystem",
+                "key":"mkisofs"
+            },
+            {  
+                "val":"Display output one screen at a time",
+                "key":"more"
+            },
+            {  
+                "val":"Mount a file system",
+                "key":"mount"
+            },
+            {  
+                "val":"Manipulate MS-DOS files",
+                "key":"mtools"
+            },
+            {  
+                "val":"Network diagnostics (traceroute/ping)",
+                "key":"mtr"
+            },
+            {  
+                "val":"Move or rename files or directories",
+                "key":"mv"
+            },
+            {  
+                "val":"Mass Move and rename (files)",
+                "key":"mmv"
+            }
+        ],
+        "N": [
+            {  
+                "val":"Networking information",
+                "key":"netstat" 
+            },
+            {  
+                "val":"the priority of a command or job",
+                "key":"nice SET"
+            },
+            {  
+                "val":"lines and write files",
+                "key":"nl Numbers"
+            },
+            {  
+                "val":"Run a command immune to hangups",
+                "key":"nohups"
+            },
+            {  
+                "val":"Send desktop notifications",
+                "key":"notify-send"
+            },
+            {  
+                "val":"Query Internet name servers interactively",
+                "key":"ns-lookup"
+            }
+        ],
+        "O": [
+            {  
+                "val":"Open a file in its default application",
+                "key":"open" 
+            },
+            {  
+                "val":"Operator access",
+                "key":"op" 
+            }
+        ],
+        "P": [
+            {  
+                "val":"Modify a user password",
+                "key":"passwd" 
+            },
+            {  
+                "val":"Merge lines of files",
+                "key":"paste" 
+            },
+            {  
+                "val":"Check file name portability",
+                "key":"pathchk" 
+            },
+            {  
+                "val":"Test a network connection",
+                "key":"ping" 
+            },
+            {  
+                "val":"Stop processes from running",
+                "key":"pkill" 
+            },
+            {  
+                "val":"Restore the previous value of the current directory",
+                "key":"popd" 
+            },
+            {  
+                "val":"Prepare files for printing",
+                "key":"pr" 
+            },
+            {  
+                "val":"Printer capability database",
+                "key":"printcap" 
+            },
+            {  
+                "val":"Print environment variables",
+                "key":"printenv" 
+            },
+            {  
+                "val":"Format and print data •",
+                "key":"printf" 
+            },
+            {  
+                "val":"Process status",
+                "key":"ps" 
+            },
+            {  
+                "val":"Save and then change the current directory",
+                "key":"pushd" 
+            },
+            {  
+                "val":"Print Working Directory",
+                "key":"pwd" 
+            }
+        ],
+        "Q": [
+            {  
+                "val":"Display disk usage and limits",
+                "key":"qouta" 
+            },
+            {  
+                "val":"Scan a file system for disk usage",
+                "key":"qoutacheck" 
+            },
+            {  
+                "val":"Set disk quotas",
+                "key":"netstat" 
+            },
+            {  
+                "val":"Networking information",
+                "key":"quotactl" 
+            }
+        ],
+        "R": [
+            {  
+                "val":"ram disk device",
+                "key":"ram" 
+            },
+            {  
+                "val":"Copy files between two machines",
+                "key":"rcp" 
+            },
+            {  
+                "val":"Read a line from standard input",
+                "key":"read" 
+            },
+            {  
+                "val":"Read from stdin into an array variable",
+                "key":"readarry" 
+            },
+            {  
+                "val":"Mark variables/functions as readonly",
+                "key":"readonly" 
+            },
+            {  
+                "val":"Reboot the system",
+                "key":"reboot" 
+            },
+            {  
+                "val":"Rename files",
+                "key":"rename" 
+            },
+            {  
+                "val":"Alter priority of running processes",
+                "key":"renice" 
+            },
+            {  
+                "val":"Synchronize remote files via email",
+                "key":"remsync" 
+            },
+            {  
+                "val":"Networking information",
+                "key":"netstat" 
+            },
+            {  
+                "val":"Networking information",
+                "key":"netstat" 
+            },
+            {  
+                "val":"Exit a shell function",
+                "key":"return" 
+            },
+            {  
+                "val":"Reverse lines of a file",
+                "key":"rev" 
+            },
+            {  
+                "val":"Remove files",
+                "key":"rm" 
+            },
+            {  
+                "val":"Remove folder(s)",
+                "key":"rmdir" 
+            },
+            {  
+                "val":"Remote file copy (Synchronize file trees)",
+                "key":"rsync" 
+            }
+        ],
+        "S": [
+            {  
+                "val":"Multiplex terminal, run remote shells via ssh",
+                "key":"screen" 
+            },
+            {  
+                "val":"Secure copy (remote file copy)",
+                "key":"scp" 
+            },
+            {  
+                "val":"Merge two files interactively",
+                "key":"sdiff" 
+            },
+            {  
+                "val":"Stream Editor",
+                "key":"sed" 
+            },
+            {  
+                "val":"Accept keyboard input",
+                "key":"select" 
+            },
+            {  
+                "val":"Print numeric sequences",
+                "key":"seq" 
+            },
+            {  
+                "val":"Manipulate shell variables and functions",
+                "key":"sed" 
+            },
+            {  
+                "val":"Networking information",
+                "key":"netstat" 
+            },{  
+                "val":"Secure File Transfer Program",
+                "key":"sftp" 
+            },
+            {  
+                "val":"Shift positional parameters",
+                "key":"shift" 
+            },
+            {  
+                "val":"Shell Options",
+                "key":"shopt" 
+            },
+            {  
+                "val":"Shutdown or restart linux",
+                "key":"shutdown" 
+            },
+            {  
+                "val":"Delay for a specified time",
+                "key":"sleep" 
+            },
+            {  
+                "val":"Find files",
+                "key":"slocate" 
+            },
+            {  
+                "val":"Sort text files",
+                "key":"sort" 
+            },          
+            {  
+                "val":"Run commands from a file `.’",
+                "key":"source" 
+            },
+            {  
+                "val":"Split a file into fixed-size pieces",
+                "key":"split" 
+            },
+            {  
+                "val":"Secure Shell client (remote login program)",
+                "key":"ssh" 
+            },
+            {  
+                "val":"Trace system calls and signals",
+                "key":"strace" 
+            },
+            {  
+                "val":"Substitute user identity",
+                "key":"su" 
+            },
+            {  
+                "val":"Execute a command as another user",
+                "key":"sudo" 
+            },
+            {  
+                "val":"Print a checksum for a file",
+                "key":"sum" 
+            },            
+            {  
+                "val":"Suspend execution of this shell",
+                "key":"suspend" 
+            },
+            {  
+                "val":"Make a new name for a file",
+                "key":"symlink" 
+            },
+            {  
+                "val":"Synchronize data on disk with memory",
+                "key":"sync" 
+            }
+        ],
+        "T": [
+            {  
+                "val":"Output the last part of file",
+                "key":"tail" 
+            },
+            {  
+                "val":"Tape ARchiver",
+                "key":"tar" 
+            },
+            {  
+                "val":"Redirect output to multiple files",
+                "key":"tee" 
+            },
+            {  
+                "val":"Evaluate a conditional expression",
+                "key":"test" 
+            },
+            {  
+                "val":"Measure Program running time",
+                "key":"time" 
+            },
+            {  
+                "val":"User and system times",
+                "key":"times" 
+            },
+            {  
+                "val":"Change file timestamps",
+                "key":"tough" 
+            },
+            {  
+                "val":"List processes running on the system",
+                "key":"top" 
+            },
+            {  
+                "val":"Trace Route to Host",
+                "key":"traceroute" 
+            },
+            {  
+                "val":"Run a command when a signal is set(bourne)",
+                "key":"trap" 
+            },
+            {  
+                "val":"Translate, squeeze, and/or delete characters",
+                "key":"tr" 
+            },
+            {  
+                "val":"Do nothing, successfully",
+                "key":"true" 
+            },
+            {  
+                "val":"Topological sort",
+                "key":"tsort" 
+            },
+            {  
+                "val":"Describe a command",
+                "key":"type" 
+            },
+            {  
+                "val":"Print filename of terminal on stdin",
+                "key":"tty" 
+            }
+        ],
+        "U":[
+            {  
+                "val":"Limit user resources",
+                "key":"ulimit" 
+            },
+            {  
+                "val":"Users file creation mask",
+                "key":"umask" 
+            },
+            {  
+                "val":"Unmount a device",
+                "key":"unmount" 
+            },
+            {  
+                "val":"Remove an alias",
+                "key":"unalias" 
+            },
+            {  
+                "val":"Print system information",
+                "key":"uname" 
+            },
+            {  
+                "val":"Convert spaces to tabs",
+                "key":"unexpand" 
+            },
+            {  
+                "val":"Uniquify files",
+                "key":"uniq" 
+            },
+            {  
+                "val":"Convert units from one scale to another",
+                "key":"units" 
+            },
+            {  
+                "val":"Remove variable or function names",
+                "key":"unset" 
+            },
+            {  
+                "val":"Unpack shell archive scripts",
+                "key":"unshar" 
+            },
+            {  
+                "val":"Execute commands (until error)",
+                "key":"uptil" 
+            },
+            {  
+                "val":"Show uptime",
+                "key":"uptime" 
+            },
+            {  
+                "val":"Create new user account",
+                "key":"useradd" 
+            },
+            {  
+                "val":"Delete a user account",
+                "key":"userdel" 
+            },
+            {  
+                "val":"Modify user account",
+                "key":"usermod" 
+            },
+            {  
+                "val":"List users currently logged in",
+                "key":"users" 
+            },
+            {  
+                "val":"Encode a binary file",
+                "key":"uuencode" 
+            },
+            {  
+                "val":"Decode a file created by uuencode",
+                "key":"uudecode" 
+            }
+        ],
+        "V": [
+            {  
+                "val":"Verbosely list directory contents (`ls -l -b’)",
+                "key":"v" 
+            },
+            {  
+                "val":"Verbosely list directory contents (`ls -l -b’)",
+                "key":"vdir" 
+            },
+            {  
+                "val":"Text Editor",
+                "key":"vi" 
+            },
+            {  
+                "val":"Report virtual memory statistics",
+                "key":"vmstat" 
+            }
+        ],
+        "W": [
+            {  
+                "val":"Wait for a process to complete",
+                "key":"wait" 
+            },
+            {  
+                "val":"Execute/display a program periodically",
+                "key":"watch" 
+            },
+            {  
+                "val":"Print byte, word, and line counts",
+                "key":"wc" 
+            },
+            {  
+                "val":"Search the user’s $path, man pages and source files for a program",
+                "key":"whereis" 
+            },
+            {  
+                "val":"Search the user’s $path for a program file",
+                "key":"which" 
+            },
+            {  
+                "val":"Execute commands",
+                "key":"while" 
+            },
+            {  
+                "val":"Print all usernames currently logged in",
+                "key":"who" 
+            },
+            {  
+                "val":"Print the current user id and name (`id -un’)",
+                "key":"whoami" 
+            },
+            {  
+                "val":"Retrieve web pages or files via HTTP, HTTPS or FTP"  
+                "key":"wget" 
+            },
+            {  
+                "val":"Send a message to another user",
+                "key":"write" 
+            }
+        ],
+        "X": [
+            {  
+                "val":"Execute utility, passing constructed argument list(s)",
+                "key":"xargs" 
+            },
+            {  
+                "val":"Open a file or URL in the user’s preferred application",
+                "key":"xdg-open" 
+            }                 
+        ]
+    }
+}
